@@ -1,0 +1,59 @@
+body {
+    background-color: #b4d8f3;
+}
+
+#gameContainer {
+    background-image: url("https://images.unsplash.com/photo-1551043088-22eb8ac4cc48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"); 
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 0 black;
+    -moz-box-shadow: 1px 1px 4px 0 black;
+
+}
+#gameWindow {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 0 black;
+    -moz-box-shadow: 1px 1px 4px 0 black;
+
+}
+#gameWindowRow {
+    max-height: 400px;
+    height: 400px;
+}
+
+#gameOverWindow {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    margin-left: -202px;
+    margin-top: -180px;
+    padding: 10px;
+    background-color: #e85d55;
+    visibility: hidden;
+    box-shadow: 1px 1px 4px 0 black;
+    -moz-box-shadow: 1px 1px 4px 0 black;
+}
+#scoreElement, #livesRemaining {
+    box-shadow: 1px 1px 3px 0 black;
+    -moz-box-shadow: 1px 1px 3px 0 black;
+
+}
+#toggleGame {
+    cursor: pointer;
+    background-color: #26c500;
+}
+
+.icon {
+    display: none;
+    width: 100px;
+    position: absolute;
+}
+
+#instructionWindow, #timeCounter, #toggleGame {
+    box-shadow: 1px 1px 4px 0 black;
+    -moz-box-shadow: 1px 1px 4px 0 black;
+}
+

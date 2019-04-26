@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Icon Ninja</title>
+        <link href="ColoredLineIcons/png/32/camera.png" rel="shortcut icon" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    </head>
+
+    <body>
+            <div id="gameOverWindow" class="rounded"> 
+                    <p class="display-4 text-center">
+                        GAME OVER
+                        <br>
+                        YOUR SCORE IS: <span id="finalScore"></span>
+                    </p>
+                </div>
+
+        <div class="container my-5 text-center">
+
+            <img src="ColoredLineIcons/png/64/camera.png"><h1 class="m-auto display-3">ICON NINJA</h1>
+
+        </div>
+
+        <div class="container" id="gameContainer">
+
+                <div class="row p-3" id="scoreAndLivesRow">
+                    <div class="invisible col-4 col-md-3 rounded bg-light text-center" id="livesRemaining">
+                        Lives: <span id="hearts" class="text-danger"></span>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col-4 col-md-3 bg-light rounded text-center invisible" id="scoreElement">
+                        Score: <span id="liveScore">0</span>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center" id="gameWindowRow">
+                    <div class="col-10 col-md-6 bg-light rounded" id="gameWindow">
+                        <img id="icon1" class="icon" src="">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-6 col-lg-3 mt-3 bg-light rounded text-center" id="instructionWindow">Slice the icons!</div>
+                </div>
+
+                <div class="row justify-content-center p-3">
+                        <div class="col"></div>
+                        <div class="font-weight-bold d-flex col-4 mt-3 mb-4 rounded text-center align-items-center justify-content-center" id="toggleGame">START GAME!</div>
+                        <div class="invisible col-3 offset-1 mt-3 mb-4 bg-light rounded text-center">Time Remaining: <span id="timeCounter">60</span> sec</div>
+                    </div>
+                
+        </div>
+
+        <audio id="sliceSound">
+            <source src="audio/KnifeSliceFace_ZA02.358_358.mp3">
+            <source src="audio/KnifeSliceFace_ZA02.358_358.ogg">
+        </audio>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="app.js" type="text/javascript"></script>
+    </body>
+</html>
