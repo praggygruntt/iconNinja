@@ -34,10 +34,10 @@ $('#icon1').mouseover(function(){
     // Stop fruit
     clearInterval(action);
     $("#icon1").hide("explode", 500);
-    setTimeout(sendIcon, 510);
+    setTimeout(sendIcon, 501);
 });
 
-// Send Fruit
+// Send Icon
 const sendIcon = function() {
     chooseIcon();
     $("#icon1").show();
