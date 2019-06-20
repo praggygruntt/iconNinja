@@ -34,7 +34,7 @@ $('#icon1').mouseover(function(){
     // Stop fruit
     clearInterval(action);
     $("#icon1").hide("explode", 500);
-    setTimeout(sendIcon, 501);
+    setTimeout(sendIcon, 550);
 });
 
 // Send Icon

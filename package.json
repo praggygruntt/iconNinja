@@ -1,0 +1,19 @@
+{
+  "name": "fruitninjaclone",
+  "version": "1.0.0",
+  "description": "Icon Ninja (A Fruit Ninja Clone)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praggygruntt/iconNinja.git"
+  },
+  "author": "Zachary Bowman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praggygruntt/iconNinja/issues"
+  },
+  "homepage": "https://github.com/praggygruntt/iconNinja#readme"
+}
