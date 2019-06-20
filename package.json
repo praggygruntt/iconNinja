@@ -1,0 +1,19 @@
+{
+  "name": "fruitninjaclone",
+  "version": "1.0.0",
+  "description": "A Fruit Ninja Simple Clone // HTML, CSS, Bootstrap, jQuery, jQueryUI",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praggygruntt/iconNinja.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praggygruntt/iconNinja/issues"
+  },
+  "homepage": "https://github.com/praggygruntt/iconNinja#readme"
+}
